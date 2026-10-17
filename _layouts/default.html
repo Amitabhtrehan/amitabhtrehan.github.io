@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="{{ '/' | relative_url }}">{{ site.data.profile.name }}</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav id="nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/research/' | relative_url }}">Research</a>
+        <a href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+        <a href="{{ '/news/' | relative_url }}">News</a>
+        <a href="{{ '/service/' | relative_url }}">Service</a>
+        <a href="{{ '/assets/Amitabh-Trehan-CV.pdf' | relative_url }}">CV</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">{{ content }}</main>
+  <footer class="wrap footer">© {{ 'now' | date: '%Y' }} {{ site.data.profile.name }} · Built with GitHub Pages.</footer>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

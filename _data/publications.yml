@@ -1,0 +1,63 @@
+# Curated list, newest first. Add new entries at the top.
+- year: "2025"
+  title: "Approximating Optimal Broadcast of Files in a Hose-Model Network"
+  authors: "Thomas Erlebach, Naveen Garg, Sukriti Gupta and Amitabh Trehan"
+  venue: "FSTTCS 2025"
+  links: []
+- year: "2025"
+  title: "Amnesiac Flooding: Easy to Break, Difficult to Escape"
+  authors: "Henry Austin, Maximilien Gadouleau, George B. Mertzios and Amitabh Trehan"
+  venue: "DISC 2025"
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2502.06001"
+- year: "2025"
+  title: "Payment Scheduling in the Interval Debt Model"
+  authors: "Tom Friedetzky, David C. Kutner, George B. Mertzios, Iain A. Stewart and Amitabh Trehan"
+  venue: "Theoretical Computer Science 1028: 115028"
+  links: []
+- year: "2024"
+  title: "Competitive Query Minimization for Stable Matching with One-Sided Uncertainty"
+  authors: "Evripidis Bampis, Konstantinos Dogeas, Thomas Erlebach, Nicole Megow, Jens Schloeter and Amitabh Trehan"
+  venue: "APPROX/RANDOM 2024"
+  links: []
+- year: "2024"
+  title: "All You Need are Random Walks: Fast and Simple Distributed Conductance Testing"
+  authors: "Tugkan Batu, Amitabh Trehan and Chhaya Trehan"
+  venue: "SIROCCO 2024"
+  links: []
+- year: "2023"
+  title: "Termination of Amnesiac Flooding"
+  authors: "Walter Hussak and Amitabh Trehan"
+  venue: "Distributed Computing 36(2): 193-207"
+  links: []
+- year: "2020"
+  title: "DConstructor: Network Construction with Polylogarithmic Overhead"
+  authors: "Seth Gilbert, Gopal Pandurangan, Peter Robinson and Amitabh Trehan"
+  venue: "PODC 2020"
+  links: []
+- year: "2020"
+  title: "Fully Compact Routing in Low Memory Self-Healing Trees"
+  authors: "Armando Castaneda, Jonas Lefevre and Amitabh Trehan"
+  venue: "ICDCN 2020"
+  links: []
+- year: "2016"
+  title: "DEX: Self-healing Expanders"
+  authors: "Gopal Pandurangan, Peter Robinson and Amitabh Trehan"
+  venue: "Distributed Computing 29(3)"
+  links: []
+- year: "2015"
+  title: "On the Complexity of Universal Leader Election"
+  authors: "Shay Kutten, Gopal Pandurangan, David Peleg, Peter Robinson and Amitabh Trehan"
+  venue: "Journal of the ACM 62(2)"
+  links: []
+- year: "2014"
+  title: "Xheal: Localized Self-Healing Using Expanders"
+  authors: "Gopal Pandurangan and Amitabh Trehan"
+  venue: "Distributed Computing 27(1)"
+  links: []
+- year: "2012"
+  title: "The Forgiving Graph: A Self-Healing Distributed Data Structure"
+  authors: "Tom Hayes, Jared Saia and Amitabh Trehan"
+  venue: "Distributed Computing 25(4)"
+  links: []

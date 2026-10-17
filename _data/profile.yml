@@ -1,0 +1,23 @@
+name: "Amitabh Trehan"
+role: "Associate Professor"
+institution: "Department of Computer Science, Durham University"
+strapline: "Algorithms for reliable computation in changing networks"
+email: "amitabh.trehan@durham.ac.uk"
+telephone: "+44 (0) 191 33 43294"
+photo: "https://apps.dur.ac.uk/biography/image/2496"
+bio: >-
+  I am an Associate Professor in the Department of Computer Science at Durham University
+  and Head of the NESTiD research group. I work in theoretical computer science, developing
+  algorithms for distributed and networked systems, with particular interests in resilience,
+  dynamism, graph algorithms and strategic interaction.
+links:
+  - label: "Durham profile"
+    url: "https://www.durham.ac.uk/staff/amitabh-trehan/"
+  - label: "Google Scholar"
+    url: "https://scholar.google.co.uk/citations?user=DN_F0ekAAAAJ&hl=en"
+  - label: "DBLP"
+    url: "http://dblp.uni-trier.de/pers/hd/t/Trehan:Amitabh"
+  - label: "arXiv"
+    url: "https://arxiv.org/find/cs/1/au:+Trehan_A/0/1/0/all/0/1"
+  - label: "NESTiD"
+    url: "https://nestid.webspace.durham.ac.uk/"
