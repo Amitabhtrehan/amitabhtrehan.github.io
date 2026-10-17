@@ -1,0 +1,13 @@
+title: "Amitabh Trehan"
+description: "Associate Professor of Computer Science at Durham University"
+url: "https://amitabht.github.io"
+baseurl: ""
+permalink: pretty
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
