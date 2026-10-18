@@ -1,63 +1,197 @@
-# Curated list, newest first. Add new entries at the top.
+# Curated publications, newest first.
+#
+# Available theme identifiers:
+#   resilient
+#   dynamic
+#   efficient
+#   coordination
+#
+# A publication may have more than one theme.
+
 - year: "2025"
   title: "Approximating Optimal Broadcast of Files in a Hose-Model Network"
   authors: "Thomas Erlebach, Naveen Garg, Sukriti Gupta and Amitabh Trehan"
   venue: "FSTTCS 2025"
-  links: []
+  themes:
+    - coordination
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.4230/LIPIcs.FSTTCS.2025.30"
+
 - year: "2025"
   title: "Amnesiac Flooding: Easy to Break, Difficult to Escape"
   authors: "Henry Austin, Maximilien Gadouleau, George B. Mertzios and Amitabh Trehan"
   venue: "DISC 2025"
+  themes:
+    - dynamic
   links:
+    - label: "DOI"
+      url: "https://doi.org/10.4230/LIPIcs.DISC.2025.10"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2502.06001"
+
 - year: "2025"
   title: "Payment Scheduling in the Interval Debt Model"
   authors: "Tom Friedetzky, David C. Kutner, George B. Mertzios, Iain A. Stewart and Amitabh Trehan"
-  venue: "Theoretical Computer Science 1028: 115028"
-  links: []
+  venue: "Theoretical Computer Science, 1028, 115028"
+  themes:
+    - coordination
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1016/j.tcs.2024.115028"
+
 - year: "2024"
   title: "Competitive Query Minimization for Stable Matching with One-Sided Uncertainty"
-  authors: "Evripidis Bampis, Konstantinos Dogeas, Thomas Erlebach, Nicole Megow, Jens Schloeter and Amitabh Trehan"
+  authors: "Evripidis Bampis, Konstantinos Dogeas, Thomas Erlebach, Nicole Megow, Jens Schlöter and Amitabh Trehan"
   venue: "APPROX/RANDOM 2024"
-  links: []
+  themes:
+    - coordination
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2024.17"
+
 - year: "2024"
   title: "All You Need are Random Walks: Fast and Simple Distributed Conductance Testing"
   authors: "Tugkan Batu, Amitabh Trehan and Chhaya Trehan"
   venue: "SIROCCO 2024"
+  themes:
+    - efficient
   links: []
+
 - year: "2023"
   title: "Termination of Amnesiac Flooding"
   authors: "Walter Hussak and Amitabh Trehan"
-  venue: "Distributed Computing 36(2): 193-207"
-  links: []
+  venue: "Distributed Computing, 36(2), 193–207"
+  themes:
+    - dynamic
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1007/s00446-023-00448-y"
+
 - year: "2020"
-  title: "DConstructor: Network Construction with Polylogarithmic Overhead"
+  title: "DConstructor: Efficient and Robust Network Construction with Polylogarithmic Overhead"
   authors: "Seth Gilbert, Gopal Pandurangan, Peter Robinson and Amitabh Trehan"
   venue: "PODC 2020"
-  links: []
+  themes:
+    - resilient
+    - efficient
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1145/3382734.3405716"
+
+- year: "2020"
+  title: "On the Termination of Flooding"
+  authors: "Walter Hussak and Amitabh Trehan"
+  venue: "STACS 2020"
+  themes:
+    - dynamic
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.4230/LIPIcs.STACS.2020.17"
+
 - year: "2020"
   title: "Fully Compact Routing in Low Memory Self-Healing Trees"
-  authors: "Armando Castaneda, Jonas Lefevre and Amitabh Trehan"
+  authors: "Armando Castañeda, Jonas Lefèvre and Amitabh Trehan"
   venue: "ICDCN 2020"
-  links: []
+  themes:
+    - resilient
+    - efficient
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1145/3369740.3369786"
+
+- year: "2018"
+  title: "Compact Routing Messages in Self-Healing Trees"
+  authors: "Armando Castañeda, Danny Dolev and Amitabh Trehan"
+  venue: "Theoretical Computer Science, 709, 2–19"
+  themes:
+    - resilient
+    - efficient
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1016/j.tcs.2016.11.022"
+
 - year: "2016"
-  title: "DEX: Self-healing Expanders"
+  title: "DEX: Self-Healing Expanders"
   authors: "Gopal Pandurangan, Peter Robinson and Amitabh Trehan"
-  venue: "Distributed Computing 29(3)"
-  links: []
+  venue: "Distributed Computing, 29(3), 163–185"
+  themes:
+    - resilient
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1007/s00446-015-0258-3"
+
 - year: "2015"
   title: "On the Complexity of Universal Leader Election"
   authors: "Shay Kutten, Gopal Pandurangan, David Peleg, Peter Robinson and Amitabh Trehan"
-  venue: "Journal of the ACM 62(2)"
+  venue: "Journal of the ACM, 62(1), 7:1–7:27"
+  themes:
+    - coordination
+    - efficient
   links: []
+
+- year: "2015"
+  title: "Sublinear Bounds for Randomized Leader Election"
+  authors: "Shay Kutten, Gopal Pandurangan, David Peleg, Peter Robinson and Amitabh Trehan"
+  venue: "Theoretical Computer Science, 561, 134–143"
+  themes:
+    - coordination
+    - efficient
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1016/j.tcs.2014.02.009"
+
 - year: "2014"
-  title: "Xheal: Localized Self-Healing Using Expanders"
+  title: "Xheal: A Localized Self-Healing Algorithm Using Expanders"
   authors: "Gopal Pandurangan and Amitabh Trehan"
-  venue: "Distributed Computing 27(1)"
+  venue: "Distributed Computing, 27(1), 39–54"
+  themes:
+    - resilient
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1007/s00446-013-0192-1"
+
+- year: "2013"
+  title: "Composition Games for Distributed Systems: The EU Grants Games"
+  authors: "Shay Kutten, Ron Lavi and Amitabh Trehan"
+  venue: "AAAI 2013"
+  themes:
+    - coordination
   links: []
+
+- year: "2012"
+  title: "Dense Subgraphs on Dynamic Networks"
+  authors: "Atish Das Sarma, Ashwin Lall, Danupon Nanongkai and Amitabh Trehan"
+  venue: "DISC 2012"
+  themes:
+    - dynamic
+    - efficient
+  links: []
+
 - year: "2012"
   title: "The Forgiving Graph: A Self-Healing Distributed Data Structure"
   authors: "Tom Hayes, Jared Saia and Amitabh Trehan"
-  venue: "Distributed Computing 25(4)"
+  venue: "Distributed Computing, 25, 261–278"
+  themes:
+    - resilient
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1007/s00446-012-0160-1"
+
+- year: "2011"
+  title: "Load Balanced Scalable Byzantine Agreement through Quorum Building, with Full Information"
+  authors: "Valerie King, Steven Lonargan, Jared Saia and Amitabh Trehan"
+  venue: "ICDCN 2011"
+  themes:
+    - resilient
+    - coordination
+  links: []
+
+- year: "2008"
+  title: "The Forgiving Tree: A Self-Healing Distributed Data Structure"
+  authors: "Tom Hayes, Navin Rustagi, Jared Saia and Amitabh Trehan"
+  venue: "PODC 2008"
+  themes:
+    - resilient
+    - efficient
   links: []
