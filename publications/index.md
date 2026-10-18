@@ -15,8 +15,8 @@ description: Selected publications by Amitabh Trehan, organised by research them
 
   <p>
     For a complete bibliographic record, see
-    {{ site.data.profile.links[1].url }}Google Scholar</a>,
-    {{ site.data.profile.links[2].url }}DBLP</a>, or my
+    <a {{ site.data.profile.links[1].url }}Google Scholar</a>,
+    <a {{ site.data.profile.links[2].url }}DBLP</a>, or my
     <a href="https://www.durham.ac.uk/staff/amitabh-trehan/">
       Durham University profile
     </a>.
